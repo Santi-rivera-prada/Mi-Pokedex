@@ -1,0 +1,64 @@
+/*estilos a mi body*/
+
+*{
+    font-family: cursive;
+    color: white;
+    background-color: aliceblue;
+    background-image: url(/imagen/screen-20.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    display: grid;
+    text-align: center;
+}
+
+h1{
+color: rgb(255, 255, 255);
+    text-align: center;
+}
+p{
+    font-size: x-large;
+}
+
+/*boton*/
+
+main{
+    display: flex;
+}
+
+form button {
+    display: flexbox;
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 80px;
+    background: none;
+    border: solid 0px ;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+ }
+
+ /*imagenes*/
+
+ div{
+    display: grid;
+    justify-content: center;
+}
+ 
+form img{ 
+    display: flexbox;
+    width: 90%;
+    height: auto;
+}
+  
+

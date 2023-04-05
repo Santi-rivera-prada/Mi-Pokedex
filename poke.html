@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="poke.css">
+    <script src="pokeapi.js"></script>
+     <link rel="icon" href="/imagen/pokemon-party.jpg">
+    <title>Pokedex App</title>
+</head>
+<body>
+    <form action="index.html">
+        <button>⬅Volver<hr></button>
+    </form>
+
+    <input type="search" id="character_input" placeholder="🔍Buscar" >
+       <button onclick="find_character()">
+          search
+       </button>
+    <div class="form-body" >
+        <h2>POKEMON</h2>
+        <div id="character_info"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
